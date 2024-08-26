@@ -1,14 +1,14 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 2 - Variables, Builtin Functions</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/Marek/">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+  <a class="header-badge" target="_blank" href="https://twitter.com/Marek">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Marek?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<a href="https://www.linkedin.com/in/Marek/" target="_blank">Marek Bukoski</a><br>
 <small> Second Edition: July, 2021</small>
 </sub>
 
@@ -101,16 +101,16 @@ _Example:_
 
 ```py
 # Variables in Python
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Marek'
+last_name = 'Bukoski'
 country = 'Finland'
 city = 'Helsinki'
 age = 250
 is_married = True
 skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
 person_info = {
-   'firstname':'Asabeneh',
-   'lastname':'Yetayeh',
+   'firstname':'Marek',
+   'lastname':'Bukoski',
    'country':'Finland',
    'city':'Helsinki'
    }
@@ -152,7 +152,7 @@ Multiple variables can also be declared in one line:
 **Example:**
 
 ```py
-first_name, last_name, country, age, is_married = 'Asabeneh', 'Yetayeh', 'Helsink', 250, True
+first_name, last_name, country, age, is_married = 'Marek', 'Bukoski', 'Helsink', 250, True
 
 print(first_name, last_name, country, age, is_married)
 print('First name:', first_name)
@@ -186,21 +186,21 @@ There are several data types in Python. To identify the data type we use the _ty
 # Different python data types
 # Let's declare variables with various data types
 
-first_name = 'Asabeneh'     # str
-last_name = 'Yetayeh'       # str
+first_name = 'Marek'     # str
+last_name = 'Bukoski'       # str
 country = 'Finland'         # str
 city= 'Helsinki'            # str
 age = 250                   # int, it is not my real age, don't worry about it
 
 # Printing out types
-print(type('Asabeneh'))     # str
+print(type('Marek'))     # str
 print(type(first_name))     # str
 print(type(10))             # int
 print(type(3.14))           # float
 print(type(1 + 1j))         # complex
 print(type(True))           # bool
 print(type([1, 2, 3, 4]))     # list
-print(type({'name':'Asabeneh','age':250, 'is_married':250}))    # dict
+print(type({'name':'Marek','age':250, 'is_married':250}))    # dict
 print(type((1,2)))                                              # tuple
 print(type(zip([1,2],[3,4])))                                   # set
 ```
@@ -233,8 +233,8 @@ print('num_int', int(num_str))      # 10
 print('num_float', float(num_str))  # 10.6
 
 # str to list
-first_name = 'Asabeneh'
-print(first_name)               # 'Asabeneh'
+first_name = 'Marek'
+print(first_name)               # 'Marek'
 first_name_to_list = list(first_name)
 print(first_name_to_list)            # ['A', 's', 'a', 'b', 'e', 'n', 'e', 'h']
 ```
